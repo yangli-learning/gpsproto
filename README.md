@@ -14,12 +14,10 @@ Google Protocol Buffers
 
     protoc -I=. --cpp_out=. gps_trajectory.proto
 
-   This will generate `proto/gps_trajectory.pb.h` and
-   
-   `proto/gps_trajectory.pb.cc`
+   This will generate `proto/gps_trajectory.pb.h` and `proto/gps_trajectory.pb.cc`
 
 
-### Compile & Run Example ###
+### Compile & run example ###
 
 Create a build directory
 
