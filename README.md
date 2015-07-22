@@ -1,5 +1,6 @@
 The gps_trajectory.proto Format
 -------------------------------------------------------
+by [Chen Chen](http://github.com/cchen1986) , [Yang Li](http://github.com/yangli1-stanford)
 
 ### Dependency ###
 
