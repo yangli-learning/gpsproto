@@ -20,7 +20,7 @@ Google Protocol Buffers
 
 ### Compile & run example ###
 
-Create a build directory
+In the project root, create a build directory
 
     mkdir build;
     cd build;
