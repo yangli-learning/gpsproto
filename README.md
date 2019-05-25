@@ -45,7 +45,7 @@ Each GPS sample can be annotated with the following attributes:
 * `int32 lat`: latitude x 10^5
 * `int32 head`: heading angle in degrees 
 * `int32 speed`: speed in meter/second
-* `float x = 7`: easting in meters (e.g UTM coordinates)
-* `float y = 8`; northing in meters (e.g UTM coordinates) 
+* `float x`: easting in meters (e.g UTM coordinates)
+* `float y`; northing in meters (e.g UTM coordinates) 
 
 
