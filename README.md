@@ -36,4 +36,16 @@ Inside `build/`, call gpsproto on a test trajectory file:
 
 test.pbf and test_out.pbf should be the same.
 
+### Notes
+
+Each GPS sample can be annotated with the following attributes:
+* `int32 car_id`: car/driver id 
+* `uint32 timestamp`: linux time stamp of sample  
+* `int32 lon`: longitude x 10^5
+* `int32 lat`: latitude x 10^5
+* `int32 head`: heading angle in degrees 
+* `int32 speed`: speed in meter/second
+* `float x = 7`: easting in meters (e.g UTM coordinates)
+* `float y = 8`; northing in meters (e.g UTM coordinates) 
+
 
